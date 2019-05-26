@@ -9,4 +9,4 @@
 
 ## 2019-05-24: Building a website
 
-Testing out how to make a webpage in markdown using R. It's been suprisingly simple, though I've not experimented beyond a basic layout. May change it up and combine everything onto one page, as I don't have much to show at the moment.
+Testing out how to make a webpage in markdown using R. It's been suprisingly simple, though I've not experimented beyond a basic layout. May change it up and combine everything onto one page, as I don't have much to show at the moment. Hopefully Boryana will be able to show me how to spice it up.

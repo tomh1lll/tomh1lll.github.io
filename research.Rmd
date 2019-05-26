@@ -16,6 +16,10 @@ Though *Drosophila melanogaster* is a staple system for studying evolution, litt
 * [Hill, Koseva and Unckless (2019) The genome of *Drosophila innubila* reveals lineage-specific patterns of selection in immune
 genes.](files/TH_MBE_2019.pdf)
 
+\newline
+
+\newline
+
 
 # Horizontal spread of transposable elements in *Drosophila*
 
@@ -30,6 +34,10 @@ Previously the transposable element 'P-element' horizontally invaded *D. melanog
 * Hill et al (in prep) The evolution of the piRNA pathway across the *Drosophila* phylogeny.
 * Hill (in prep) Transposable element dynamics are consistent across the *Drosophila* phylogeny, despite drastically differing content.
 
+\newline
+
+\newline
+
 
 # Balancing selection in the *Drosophila* immune system mediated by rampant gene duplication
 
@@ -41,4 +49,9 @@ While it appears that a majority of immune genes in *Drosophila melanogaster* ar
 genetic variation in *Drosophila*
 antimicrobial peptides.](files/TH_GBE_2019.pdf)
 * Hill & Unckless (In prep) A simple deep-learning approach for detecting duplications and deletions in next-generation sequencing data.
-* Hill & Unckless (In prep) Rampant duplication drives antimicrobial peptide diversity across the Drosophila phylogeny.
+* Hill & Unckless (In prep) Rampant duplication drives antimicrobial peptide diversity across the *Drosophila* phylogeny.
+
+\newline
+
+
+
