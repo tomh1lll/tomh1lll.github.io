@@ -4,7 +4,7 @@
 \
 
 
-# Host-parasite co-evolution of *Drosophila innubila* and its parasites
+## Host-parasite co-evolution of *Drosophila innubila* and its parasites
 
 <img src="files/website_genome.png" style="width:60%; margin-right: 20px" align="left">
 
@@ -18,7 +18,7 @@ genes.](files/TH_MBE_2019.pdf)
 
 <br>
 
-# Horizontal spread of transposable elements in *Drosophila*
+## Horizontal spread of transposable elements in *Drosophila*
 
 <img src="files/P_fig.png" style="width:60%; margin-right: 20px" align="left">
 
@@ -34,7 +34,7 @@ Previously the transposable element 'P-element' horizontally invaded *D. melanog
 
 <br>
 
-# Balancing selection in the *Drosophila* immune system mediated by rampant gene duplication
+## Balancing selection in the *Drosophila* immune system mediated by rampant gene duplication
 
 <img src="files/Figure2.png" style="width:60%; margin-right: 20px" align="left">
 
