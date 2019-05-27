@@ -16,4 +16,4 @@ My full CV is available [here](files/TH_CV_201905.pdf).
 ### News
 
 **2019-05-27: New preprint - Transposable element dynamics are consistent across the Drosophila phylogeny, despite drastically differing content.**
-[Available on BiorXiv](https://www.biorxiv.org/content/10.1101/651059v1), will be submitted for publication as soon as the data is published. <br>
+[Available on BiorXiv](https://www.biorxiv.org/content/10.1101/651059v1), will be submitted for review as soon as the data is published. <br>
