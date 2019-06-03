@@ -18,6 +18,9 @@ navbar:
       href: https://github.com/tomh1lll
     - icon: fa-twitter fa-lg
       href: https://twitter.com/TomH1lll
+    - icon: ai-google-scholar ai-lg
+      href: https://scholar.google.com/citations?user=WJPoC9AAAAAJ&hl=en
+      
   
 output:
   html_document:

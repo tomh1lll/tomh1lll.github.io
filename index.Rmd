@@ -1,10 +1,11 @@
 ---
+fontsize: 13pt
 ---
 
 \
 
-<img src="files/fly_pic2.jpg" style="width:45%; margin-right: 20px" align="left">
-I am a postdoctoral researcher at the [University of Kansas](https://ku.edu/) in the [Unckless lab](http://www.uncklesslab.com/), in the [Department of Molecular Biosciences](https://molecularbiosciences.ku.edu/). I like to analyze data and test hypotheses concerning host-parasite co-evolution in *Drosophila*. I also like to play board/video games, think about game mechanics, the statistics of games and bioinformatics.
+<img src="files/fly_pic2.jpg" style="width:45%; margin-right: 15px" align="left">
+I am a postdoctoral researcher at the [University of Kansas](https://ku.edu/) in the [Unckless lab](http://www.uncklesslab.com/), in the [Department of Molecular Biosciences](https://molecularbiosciences.ku.edu/). I like to analyze data and test hypotheses concerning host-parasite co-evolution in *Drosophila* experimentally and with bioinformatics. I also like to play board/video games and think about game mechanics.
 
 I graduated from the [University of Reading](http://www.reading.ac.uk/) in the United Kingdom with a BSc in Biological Sciences in 2012, and then from the [Vienna Graduate School of Population Genetics](https://www.popgen-vienna.at/) with a PhD in Population Genomics in 2016. For my PhD in the [Betancourt Lab](https://www.flyevolution.net/), I studied the horizontal transfer and fitness costs of transposable elements in *Drosophila*. Since 2016 I have worked at the University of Kansas, studying co-evolution of *Drosophila innubila* and their associated DNA virus, DiNV. I also study the evolution of antimicrobial peptides and other immune effector molecules.
 
@@ -15,5 +16,8 @@ My full CV is available [here](files/TH_CV_201905.pdf).
 
 ### News
 
-**2019-05-27: New preprint - Transposable element dynamics are consistent across the Drosophila phylogeny, despite drastically differing content.**
-[Available on BiorXiv](https://www.biorxiv.org/content/10.1101/651059v1), will be submitted for review as soon as the data is published. <br>
+**2019-05-31: New preprint - A Simple Deep-Learning Approach for Detecting Duplications and Deletions in Next-Generation Sequencing Data.**<br>
+[Available on BiorXiv](https://www.biorxiv.org/content/10.1101/657361v1), Rob and I developed a simple python tool for estimating copy number variation in next-generation sequencing information using machine learning. Soon we'll be applying it across many species to identify AMP copy number variation.<br>
+
+**2019-05-27: New preprint - Transposable element dynamics are consistent across the Drosophila phylogeny, despite drastically differing content.**<br>
+[Available on BiorXiv](https://www.biorxiv.org/content/10.1101/651059v1), will be submitted for review as soon as the data is published. Using data I've scavenged from Justin and Rob, I've compared the TE insertion frequency spectrum of five species, as I'd like to start comparing other species to *D. melanogaster* more, to identify when *D. melanogaster* represents other species, and when it's an exception.<br>

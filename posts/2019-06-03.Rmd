@@ -1,0 +1,16 @@
+---
+fontsize: 13pt
+---
+
+
+### 2019-06-03: Professor Layton and machine-learning
+
+While Dana is away, I'm also going to finally work through a couple of the Professor Layton games, puzzle games I've been wanting to play for close to ten years. Turns out I'm not very good at puzzle games. Even so, I managed to finish it last night and the story was some how both predictable and crazy.
+
+Meanwhile, Rob and I have put together a tool to detect copy variants in NGS data using machine-learning. Machine-learning is really cool, and super useful, basically letting the computer decide what can define a category is really powerful. Of course if you're not using the right input information, you could end up inferring the completely wrong thing, so I'm still kind of iffy about it, but looking forward to using the tool to detect CNVs in AMPs. My initial survey looks like there's a relationship between the variation in AMP copy number, and the average copy number. Worth expanding on this.
+
+Finally, it turns out the real hero who died for our sins to save humanity is Mothra, with her sick new design and awesome song.
+
+
+-----
+

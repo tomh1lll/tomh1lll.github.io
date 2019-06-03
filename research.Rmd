@@ -1,4 +1,5 @@
 ---
+fontsize: 13pt
 ---
 
 \
@@ -41,6 +42,6 @@ Previously the transposable element 'P-element' horizontally invaded *D. melanog
 While it appears that a majority of immune genes in *Drosophila melanogaster* are evolving under positive selection, a few genes, such as AMPs, and immune genes in other species, appear to be under balancing selection, likely due to a trade off between the benefit of a resistance allele under infection and its cost when not infected. I'm interested in the population genetics of these genes and the causes of the signatures of balancing selection, specifically if these are driven by duplication events. I am currently using machine learning to identify if AMPs duplicate more than background genes across the *Drosophila* phylogeny.
 
 * [Chapman, Hill and Unckless (2019) Balancing selection drives maintenance of genetic variation in *Drosophila* antimicrobial peptides.](files/TH_GBE_2019.pdf)
-* Hill & Unckless (In prep) A simple deep-learning approach for detecting duplications and deletions in next-generation sequencing data.
+* [Hill & Unckless (2019) A simple deep-learning approach for detecting duplications and deletions in next-generation sequencing data.](files/TH_dudeML_2019.pdf)
 * Hill & Unckless (In prep) Rampant duplication drives antimicrobial peptide diversity across the *Drosophila* phylogeny.
 
