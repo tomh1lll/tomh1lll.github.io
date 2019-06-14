@@ -3,11 +3,11 @@ fontsize: 13pt
 ---
 
 
-### 2019-06-03: Professor Layton and machine-learning {.tabset}
+### 2019-06-03 {.tabset}
 
 ####  <span>&#8203;</span>
 
-#### Read {.tabset}
+#### Professor Layton and my attempt at machine-learning
 
 While Dana is away, I'm also going to finally work through a couple of the Professor Layton games, puzzle games I've been wanting to play for close to ten years. Turns out I'm not very good at puzzle games. Even so, I managed to finish it last night and the story was some how both predictable and crazy.
 
@@ -16,5 +16,4 @@ Meanwhile, Rob and I have put together a tool to detect copy variants in NGS dat
 Finally, it turns out the real hero who died for our sins to save humanity is Mothra, with her sick new design and awesome song.
 
 
------
 

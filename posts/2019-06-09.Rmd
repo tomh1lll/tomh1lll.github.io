@@ -3,11 +3,11 @@ fontsize: 13pt
 ---
 
 
-### 2019-06-09: Blackstone Fortress{.tabset}
+### 2019-06-09{.tabset}
 
 ####  <span>&#8203;</span>
 
-#### Read {.tabset}
+#### K99 and Blackstone Fortress
 
 I've submitted my K99 application finally and am free of this thing until it gets to review time.
 
@@ -16,5 +16,4 @@ The game also uses variants of D6/D8/D12 with modified symbols for skills. Some 
 Overall the game is fun though, looking forward to finishing it in the next week or so. Supposedly the fantasy version has simpler rules and is more streamlined, plus fantasy is more fun thank grim-dark so looking forward to testing out this other version.
 
 
------
 
