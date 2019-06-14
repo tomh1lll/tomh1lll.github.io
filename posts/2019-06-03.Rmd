@@ -3,7 +3,11 @@ fontsize: 13pt
 ---
 
 
-### 2019-06-03: Professor Layton and machine-learning
+### 2019-06-03: Professor Layton and machine-learning {.tabset}
+
+####  <span>&#8203;</span>
+
+#### Read {.tabset}
 
 While Dana is away, I'm also going to finally work through a couple of the Professor Layton games, puzzle games I've been wanting to play for close to ten years. Turns out I'm not very good at puzzle games. Even so, I managed to finish it last night and the story was some how both predictable and crazy.
 

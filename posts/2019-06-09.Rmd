@@ -3,12 +3,16 @@ fontsize: 13pt
 ---
 
 
-### 2019-06-09: Blackstone Fortress
+### 2019-06-09: Blackstone Fortress{.tabset}
+
+####  <span>&#8203;</span>
+
+#### Read {.tabset}
 
 I've submitted my K99 application finally and am free of this thing until it gets to review time.
 
-Last night we played [BlackStone Fortress](https://www.games-workshop.com/en-US/Warhammer-Quest-Blackstone-Fortress-2018-eng) again, and it's a lot of fun, but far too complicated for what it is. Additionally, the characters are insanely unbalancing, with a few who get inspired (sort of leveling up) by finding an item and then become really powerful for every session for the rest of forever. Comparatively, some of the characters (namely the tank and healer) have fewer moves per turn, have less movement and need to get inspired again every session by killing a certain type of enemy. And if you don't face that enemy ever then you're screwed. In our sessions this has left us with 2 or 3 characters who began overpowered and have since accumulated so many items that they're broken compared to the everyone else.
-The game also uses variants of D6/D8/D12 with modified symbols for skills. Some skills come up more than others, so if your defense is a D12 compared to your agility, you'll have a much better time than others.
+Last night we played [BlackStone Fortress](https://www.games-workshop.com/en-US/Warhammer-Quest-Blackstone-Fortress-2018-eng) again, and it's a lot of fun, but far too complicated for what it is. Additionally, the characters are insanely unbalancing, with a few who get inspired (sort of leveling up) by finding an item and then become really powerful for every session for the rest of forever. Comparatively, some of the characters (namely the tank and healer) have fewer moves per turn, have less movement and need to get inspired again every session by killing a certain type of enemy. And if you don't face that enemy ever then you're screwed. In our sessions this has left us with 2 or 3 characters who began overpowered and have since accumulated so many items that they're broken compared to the everyone else.<br>
+The game also uses variants of D6/D8/D12 with modified symbols for skills. Some skills come up more than others, so if your defense is a D12 compared to your agility, you'll have a much better time than others.<br>
 Overall the game is fun though, looking forward to finishing it in the next week or so. Supposedly the fantasy version has simpler rules and is more streamlined, plus fantasy is more fun thank grim-dark so looking forward to testing out this other version.
 
 

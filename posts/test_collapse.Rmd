@@ -1,0 +1,15 @@
+---
+fontsize: 13pt
+---
+
+## 2019-06-13: Test collapse {.tabset}
+
+###  <span>&#8203;</span>
+
+### Read {.tabset}
+
+This is a test body of text for a collapsable thing.
+
+
+-----
+

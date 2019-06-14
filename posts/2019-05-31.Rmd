@@ -6,7 +6,11 @@ fontsize: 13pt
 ---
 
 
-### 2019-05-31: Blogdown afterthoughts
+### 2019-05-31: Blogdown afterthoughts {.tabset}
+
+####  <span>&#8203;</span>
+
+#### Read {.tabset}
 
 Having now tested out blogdown, I think I'm going to stick with basic R markdown for this site. Blogdown is incredibly powerful and has so many more options than basic markdown, but I just can't wrap my head around a lot of it. Blogdown has a much steeper learning curve, and I can't quite figure out what each section means. Like, why can I have a seperate page called 'courses' but not another name? If I add another page, or change its name, the website won't compile or load.
 
