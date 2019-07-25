@@ -10,6 +10,13 @@ fontsize: 13pt
 
 \
 
+```{r child = 'posts/2019-07-25.Rmd'}
+```
+-----
+```{r child = 'posts/2019-07-07.Rmd'}
+```
+-----
+
 ```{r child = 'posts/2019-06-13.Rmd'}
 ```
 -----

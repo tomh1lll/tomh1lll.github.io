@@ -1,0 +1,16 @@
+---
+fontsize: 13pt
+---
+
+
+### 2019-07-25 {.tabset}
+
+####  <span>&#8203;</span>
+
+#### Evolve and resequence
+
+The machine-learning tool Rob and I designed appears to be good at CNV cool particularly in pools it seems. Due to this, I've started looking into CNVs in pooled experimental evolution. The idea is that CNVs changing in frequency may be the cause of some of the SNPs that are significantly changing between timepoints in evolve and resequence experiments. Will start looking in *Drosophila simulans* EE and if convincing I'll expand into *Drosophila melanogaster*.
+
+
+
+
