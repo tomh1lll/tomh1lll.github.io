@@ -16,6 +16,9 @@ My full CV is available [here](files/TH_CV_201905.pdf).
 
 ### News
 
+**2019-07-25: Updated preprint - Transposable element dynamics are consistent across the Drosophila phylogeny, despite drastically differing content.**<br>
+[Available on BiorXiv](https://www.biorxiv.org/content/10.1101/651059v2), Having gone through one round of review at Mobile DNA, the manuscript is now updated with minor revisions.<br>
+
 **2019-05-31: New preprint - A Simple Deep-Learning Approach for Detecting Duplications and Deletions in Next-Generation Sequencing Data.**<br>
 [Available on BiorXiv](https://www.biorxiv.org/content/10.1101/657361v1), Rob and I developed a simple python tool for estimating copy number variation in next-generation sequencing information using machine learning. Soon we'll be applying it across many species to identify AMP copy number variation.<br>
 

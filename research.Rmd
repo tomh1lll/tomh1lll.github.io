@@ -45,3 +45,6 @@ While it appears that a majority of immune genes in *Drosophila melanogaster* ar
 * [Hill & Unckless (2019) A simple deep-learning approach for detecting duplications and deletions in next-generation sequencing data.](files/TH_dudeML_2019.pdf)
 * Hill & Unckless (In prep) Rampant duplication drives antimicrobial peptide diversity across the *Drosophila* phylogeny.
 
+## Speciation and genome evolution in the *Drosophila dunni* subgroup
+
+The *Drosophila dunni* subgroup is a species group spread across Carribbean islands, with one species per island. The species in this subgroup are recently diverged with differing levels of isolation between species. I am interested in the divergence between two species, *D. nigrodunni* and *D. arawakhana*, in which one direction of the cross produces only female offspring and reduces the lifespan of mated females. I suspect divergence in seminal fluid proteins may drive these effects to some degree and so am no investigating genome evolution anf seminal fluid protein evolution across this species group.
