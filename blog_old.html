@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tom Hill</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="data.html">Data</a>
+</li>
+<li>
+  <a href="blog_old.html">Blog</a>
+</li>
+<li>
+  <a href="contact.html">Contact</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/tomh1lll">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/TomH1lll">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?user=WJPoC9AAAAAJ&amp;hl=en">
+    <span class="ai ai-google-scholar ai-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><br />
+</p>
+<div id="midwest-popgen-conference" class="section level3">
+<h3>2019-08-18 - MidWest PopGen Conference</h3>
+<p>I attended the MidWest PopGen conference in Chicago and it was a lot of fun, with lots of interesting talks by a lot of people. I didn’t realise Chicago was so human genetics focused, which was interesting. I presented my work on host-parasite co-evolution of the DNA virus and <em>Drosophila</em> and ended up winning a prize for best presentation, which was swell. Unfortunately didn’t get to see any of Chicago as the meeting was so short, but there will hopefully be another time.</p>
+</div>
+<div id="evolve-and-resequence" class="section level3">
+<h3>2019-07-25 - Evolve and resequence</h3>
+<p>The machine-learning tool Rob and I designed appears to be good at CNV cool particularly in pools it seems. Due to this, I’ve started looking into CNVs in pooled experimental evolution. The idea is that CNVs changing in frequency may be the cause of some of the SNPs that are significantly changing between timepoints in evolve and resequence experiments. Will start looking in <em>Drosophila simulans</em> EE and if convincing I’ll expand into <em>Drosophila melanogaster</em>.</p>
+<hr />
+</div>
+<div id="collections-in-ithaca" class="section level3">
+<h3>2019-07-07 - Collections in Ithaca</h3>
+<p>For this past week I’ve been in Ithaca collecting <em>Drosophila</em> for the K99 I’ve submitted, as well as to escape the heat of Kansas, as Ithaca was maxed out at 25C, while Kansas has been around 30C. It was really fun to catch up with Ana and Ivan, really beautiful and kind of strange compared to Kansas, specifically I couldn’t get over how hilly everywhere was and how close together everything is, I guess I’ve become a Kansan local. Either way, I ended up collecting close to 1000 flies (mostly dead, some alive), so was a successful trip. <img src="posts/IMG_20190702_164136.jpg" style="width:100%; margin-right: 20px"> However, my trip back has not been so successful. Just before my first flight back, a thunderstorm came over Ithaca, delaying us by 3 hours, after that mechanical errors held us back another hour, resulting in me missing my flight from DC to KC. After being moved to the next flight the next morning, it turned out that flight was cancelled and moved to <em>the next</em> day, which was then canceled completely like 20 minutes later. United couldn’t get me a set of flights back in the next 2 days so I ended up switching to a different airline in a different airport, which let me see some of the sights around DC. I’m currently waiting in Atlanta and hopefully getting back late tonight and hopefully get to sleep on the planes.</p>
+<hr />
+</div>
+<div id="k99-submission-brandon-sanderson-and-dog-sickness" class="section level3">
+<h3>2019-06-13 - K99 submission, Brandon Sanderson and dog sickness</h3>
+<p>Even though I finished my K99 last week, it wasn’t actually submitted until yesterday. It was suprisingly stressful, as it turns out a lot of the formatting and required documents aren’t really mentioned online, which resulted in lots of last minute changes, rushed paragraphs and poorly written letters. I was happy with the submission, though less so after the last minute cutting down. Here’s hoping though!</p>
+<p>I also finished the Mistborn series by Brandon Sanderson and have to say, those are fantastic books. The magic system he’s created is comprehensive and interesting, based on gaining powers based on different types of consumed metals. I attempted to start reading his other big series, The StormLight Archives and have not been able to get inot these however. This feels much more of a standard fantasy series, with the magic not as well fleshed out. I’ll power through, but if I had to recommend just one, Mistborn all the way.</p>
+<p>While Dana is away I’m taking care of her dog. I’m not sure if it’s stress or illness, but she’s frustratingly not been eating her food consistently. Some days she’ll eat normally, some days she’ll only eatout of my hand, some days she’ll only eat wet food. I’m taking her to the vets tomorrow and hopefully they’ll be able to clarify some things.</p>
+<hr />
+</div>
+<div id="k99-and-blackstone-fortress" class="section level3">
+<h3>2019-06-09 - K99 and Blackstone Fortress</h3>
+<p>I’ve submitted my K99 application finally and am free of this thing until it gets to review time.</p>
+<p>Last night we played <a href="https://www.games-workshop.com/en-US/Warhammer-Quest-Blackstone-Fortress-2018-eng">BlackStone Fortress</a> again, and it’s a lot of fun, but far too complicated for what it is. Additionally, the characters are insanely unbalancing, with a few who get inspired (sort of leveling up) by finding an item and then become really powerful for every session for the rest of forever. Comparatively, some of the characters (namely the tank and healer) have fewer moves per turn, have less movement and need to get inspired again every session by killing a certain type of enemy. And if you don’t face that enemy ever then you’re screwed. In our sessions this has left us with 2 or 3 characters who began overpowered and have since accumulated so many items that they’re broken compared to the everyone else.<br> The game also uses variants of D6/D8/D12 with modified symbols for skills. Some skills come up more than others, so if your defense is a D12 compared to your agility, you’ll have a much better time than others.<br> Overall the game is fun though, looking forward to finishing it in the next week or so. Supposedly the fantasy version has simpler rules and is more streamlined, plus fantasy is more fun thank grim-dark so looking forward to testing out this other version. —–</p>
+</div>
+<div id="professor-layton-and-my-attempt-at-machine-learning" class="section level3">
+<h3>2019-06-03 - Professor Layton and my attempt at machine-learning</h3>
+<p>While Dana is away, I’m also going to finally work through a couple of the Professor Layton games, puzzle games I’ve been wanting to play for close to ten years. Turns out I’m not very good at puzzle games. Even so, I managed to finish it last night and the story was some how both predictable and crazy.</p>
+<p>Meanwhile, Rob and I have put together a tool to detect copy variants in NGS data using machine-learning. Machine-learning is really cool, and super useful, basically letting the computer decide what can define a category is really powerful. Of course if you’re not using the right input information, you could end up inferring the completely wrong thing, so I’m still kind of iffy about it, but looking forward to using the tool to detect CNVs in AMPs. My initial survey looks like there’s a relationship between the variation in AMP copy number, and the average copy number. Worth expanding on this.</p>
+<p>Finally, it turns out the real hero who died for our sins to save humanity is Mothra, with her sick new design and awesome song.</p>
+<hr />
+</div>
+<div id="thoughts-on-lady-blackbird-and-blogdown" class="section level3">
+<h3>2019-05-25 - Thoughts on Lady Blackbird and Blogdown</h3>
+<p>Having now played <a href="http://www.onesevendesign.com/ladyblackbird/lady_blackbird.pdf">Lady Blackbird</a> with my game group, I still can’t quite wrap my head around its interesting skill/dice mechanic. A character in the game has 4 traits that describe something about the character (e.g. they’re a detective, they’re cunning, they’re a country girl), and each trait then has a set of tags of characteristics related to that trait (e.g. a detective might be perceptive, have a gun, have authority). When the player meets a challenge, they say how they want to approach the challenge and the game master sets a challenge level (1-6), as the number of 4-6’s that need to be rolled to to succeed. The more needed, the higher the difficulty.<br> Following this, the player choose a trait that is relevant to the challenge (e.g. a cunning character could talk their way out of a fight), and any tags under that trait which could help. The number of tags is the number of dice you get to roll. After this, the players have a finite pool of dice that they can add to try and get enough to roll and succeed.<br> So there’s a strange negotiation that happens with every dice roll that you don’t see in other games which kind of grinds the game to a halt. On top of that, the maths behind success rates become more counter intuitive as the number of 4-6’s needed increases.</p>
+<p><img src="posts/lbb_successrate.png" style="width:50%; margin-right: 20px" align="left"></p>
+<p>Ended up spending far more time that I should have working out the best strategies for dice rolls in the game.</p>
+<p>I’d definitely play it again, as, despite it’s simplicity, we probably spent more time discussing the weirdness of the games mechanics much more than with any other game.</p>
+</div>
+<div id="ive-also-been-playing-around-with-swapping-out-this-simple-webpage-with-a-much-more-advanced-version-in-blogdown-but-for-the-life-of-me-ive-not-been-able-to-get-it-to-work-for-anything.-maybe-future-tom-will-have-more-luck-but-for-now-im-stuck-with-this-thing.-ive-also-heard-jekyll-is-worth-it-for-a-github-page-but-im-enjoying-doing-everything-in-r-at-the-moment-and-would-rather-not-switch.-hopefully-boryana-will-be-able-to-show-me-the-right-path-to-go-down-on-wednesday-when-she-makes-everything-seem-much-simpler." class="section level2">
+<h2>I’ve also been playing around with swapping out this simple webpage with a much more advanced version in Blogdown, but for the life of me I’ve not been able to get it to work for anything. Maybe future Tom will have more luck, but for now I’m stuck with this thing. I’ve also heard Jekyll is worth it for a github page, but I’m enjoying doing everything in R at the moment and would rather not switch. Hopefully Boryana will be able to show me the right path to go down on Wednesday when she makes everything seem much simpler.</h2>
+<div id="building-a-website" class="section level3">
+<h3>2019-05-24 - Building a website</h3>
+<p>Testing out how to make a webpage in markdown using R. It’s been suprisingly simple, though I’ve not experimented beyond a basic layout. May change it up and combine everything onto one page, as I don’t have much to show at the moment. Hopefully Boryana will be able to show me how to spice it up.</p>
+</div>
+</div>
+<div id="next-week-my-fiance-is-leaving-for-argentina-for-6-weeks.-because-of-this-i-was-foolish-enough-to-buy-a-new-video-game-that-im-already-absorbed-into.-apparently-ive-only-played-bad-legend-of-zelda-games-as-none-of-them-have-grabbed-me-before-but-a-link-between-worlds-is-phenomenal.-as-with-most-zelda-games-its-an-action-rpg-with-lots-of-puzzles-but-the-game-introduces-a-great-new-mechanic-which-literally-adds-another-dimension-to-all-of-gameplay.-once-you-gain-the-ability-to-merge-into-walls-becoming-2d-you-end-up-looking-at-every-facet-of-the-game-combat-puzzles-races-exploration-and-wondering-how-it-could-be-approached-a-different-way-how-could-being-2d-allow-me-to-more-effectively-solve-this-problem.-the-transitions-between-2d-and-3d-are-also-extremely-fluid-not-stopping-the-game-cold-like-in-paper-mario.-im-already-14-of-the-way-through-after-2-days-and-will-definitely-be-ordering-another-3ds-zelda-game-to-try-out-once-ive-finished." class="section level2">
+<h2>Next week, my fiance is leaving for Argentina for 6 weeks. Because of this, I was foolish enough to buy a new video game that I’m already absorbed into. Apparently I’ve only played bad Legend of Zelda games, as none of them have grabbed me before, but ‘A Link Between Worlds’ is phenomenal. As with most Zelda games, it’s an action RPG with lots of puzzles, but the game introduces a great new mechanic which literally adds another dimension to all of gameplay. Once you gain the ability to merge into walls (becoming 2D), you end up looking at every facet of the game (combat, puzzles, races, exploration) and wondering how it could be approached a different way, how could being 2D allow me to more effectively solve this problem. The transitions between 2D and 3D are also extremely fluid, not stopping the game cold like in Paper Mario. I’m already 1/4 of the way through after 2 days and will definitely be ordering another 3DS Zelda game to try out once I’ve finished.</h2>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

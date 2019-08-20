@@ -1,0 +1,32 @@
+---
+fontsize: 13pt
+
+---
+
+\
+
+
+Here you can find data I've generated in the previous years, including genomes, genome annotations, repeats and tools used cited.
+
+
+####Drosophila innubila
+Data generated for [Hill, Koseva and Unckless (2019) The genome of *Drosophila innubila* reveals lineage-specific patterns of selection in immune
+genes.](files/TH_MBE_2019.pdf)
+*Genome sequence in fasta format.
+*Genome gene annotation.
+*Genome repeat sequences in fasta format.
+*Genome repeat annotation.
+
+
+####Drosophila innubila Nudivirus
+Data generated for [Hill and Unckless (2018) The dynamic evolution of Drosophila innubila Nudivirus.](files/TH_IGE_2018.pdf)
+*Genome sequence in fasta format.
+*Genome gene annotation.
+
+####Balancing selection in antimicrobial peptides
+*List of immune genes with functional annotation.
+*DPGP data dump.
+*Database of DPGP strains.
+
+####dudeML
+*dudeML page containing manual and download information.
