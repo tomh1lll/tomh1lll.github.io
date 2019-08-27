@@ -13,26 +13,27 @@ Here you can find data I've generated in the previous years, including genomes, 
 Data generated for [Hill, Koseva and Unckless (2019) The genome of *Drosophila innubila* reveals lineage-specific patterns of selection in immune
 genes.](files/TH_MBE_2019.pdf)
 
-* Genome sequence in fasta format.
-* Genome gene annotation.
-* Genome repeat sequences in fasta format.
-* Genome repeat annotation.
+* [Genome sequence in fasta format.](data/Dinnubila.fa.tar.gz)
+* [Genome gene annotation.](data/Dinnubila.gff.tar.gz)
+* [Genome repeat sequences in fasta format.](data/Dinnubila.repeats.fa.tar.gz)
+* [Genome repeat annotation.](data/Dinnubila.fa.out.gff.tar.gz)
+* [dN/dS per gene on each branch of the quinaria group](data/Dinnubila.dNdS.txt.tar.gz)
 
 
 ####Drosophila innubila Nudivirus
 Data generated for [Hill and Unckless (2018) The dynamic evolution of Drosophila innubila Nudivirus.](files/TH_IGE_2018.pdf)
 
-* Genome sequence in fasta format.
-* Genome gene annotation.
+* [Genome sequence in fasta format.](data/DiNV_CH01M.fa.tar.gz)
+* [Genome gene annotation.](data/DiNV_CH01M.gff.tar.gz)
 
 ####Balancing selection in antimicrobial peptides
 Data generated for [Chapman, Hill and Unckless (2019) Balancing selection drives maintenance of genetic variation in *Drosophila* antimicrobial peptides.](files/TH_GBE_2019.pdf)
 
-* List of immune genes with functional annotation.
-* DPGP data dump.
-* Database of DPGP strains.
+* [List of immune genes with functional annotation.](https://www.epfl.ch/labs/lemaitrelab/wp-content/uploads/2018/12/drosophila-genes-potentially.xls)
+* [DPGP data dump.](http://johnpool.net/genomes.html)
+* [Database of DPGP strains.](http://johnpool.net/TableS1_individuals.xls)
 
 ####dudeML
 Data generated for [Hill & Unckless (2019) A deep-learning approach for detecting copy number variants in next-generation sequencing data.](files/TH_dudeML_2019.pdf)
 
-* dudeML page containing manual and download information.
+* [dudeML page containing manual and download information.](https://github.com/tomh1lll/dudeml)
