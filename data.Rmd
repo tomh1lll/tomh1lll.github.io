@@ -6,7 +6,7 @@ fontsize: 13pt
 \
 
 
-Here you can find data I've generated in the previous years, including genomes, genome annotations, repeats and tools used cited.
+Here you can find data I've generated in the previous years, including genomes, genome annotations, repeats and tools used.
 
 
 ####Drosophila innubila
@@ -16,6 +16,7 @@ genes.](files/TH_MBE_2019.pdf)
 * [Genome sequence in fasta format.](data/Dinnubila.fa.tar.gz)
 * [Genome gene annotation.](data/Dinnubila.gff.tar.gz)
 * [Genome repeat sequences in fasta format.](data/Dinnubila.repeats.fa.tar.gz)
+* [Transcriptome generated from RNAseq information]()
 * [Genome repeat annotation.](data/Dinnubila.fa.out.gff.tar.gz)
 * [dN/dS per gene on each branch of the quinaria group](data/Dinnubila.dNdS.txt.tar.gz)
 

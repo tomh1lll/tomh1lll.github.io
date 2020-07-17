@@ -9,8 +9,6 @@ navbar:
       href: research.html
     - text: Data
       href: data.html
-    - text: "Blog"
-      href: blog_old.html
     - text: "Contact"
       href: contact.html
   right:

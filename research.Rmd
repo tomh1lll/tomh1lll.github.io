@@ -7,15 +7,17 @@ fontsize: 13pt
 
 ## Host-parasite co-evolution of *Drosophila innubila* and its parasites
 
-<img src="files/website_genome.png" style="width:60%; margin-right: 20px" align="left">
+<img src="files/website_genome.png" style="width:50%; margin-right: 20px" align="left">
 
-Though *Drosophila melanogaster* is a staple system for studying evolution, little is known about its ecology. Additionally, Sophophora (the group containing *D. melanogaster*) represents only ~300 of the *Drosophila* species, compared to the ~1400 *Drosophila* in the sister clade. Mycophagous *Drosophila* have been extensively studied ecologically for ~40 years, are highly diverged from *D. melanogaster*, and are preliminary models for the evolution of toxin-tolerance, immunity, host-parasite evolution and behavior. I study *D. innubila*, a species of mycophageous *Drosophila* of particular interest due to its high frequency infection by a DNA virus and a male-killing *Wolbachia*. I'm particularly interested in identifying novel methods of parasite regulation, outside those characterized in *D. melanogaster*. I also examine the evolution of Drosophila innubila Nudivirus (DiNV), the parasite infecting *D. innubila*, I find signatures of selection in a few key genes in both DiNV and related viruses.
+Though *Drosophila melanogaster* is a staple system for studying evolution, little is known about its ecology. Additionally, Sophophora (the group containing *D. melanogaster*) represents only ~300 of the *Drosophila* species, compared to the ~1400 *Drosophila* in the sister clade. Mycophagous *Drosophila* have been extensively studied ecologically for ~40 years, are highly diverged from *D. melanogaster*, and are preliminary models for the evolution of toxin-tolerance, immunity, host-parasite evolution and behavior. I study *D. innubila*, a species of mycophageous *Drosophila* of particular interest due to its high frequency infection by a DNA virus and a male-killing *Wolbachia*. I'm particularly interested in identifying novel methods of parasite regulation, outside those characterized in *D. melanogaster*. I also examine the evolution of Drosophila innubila Nudivirus (DiNV), the parasite infecting *D. innubila*, I find two competing viral haplotypes with differing viral titers and differing rates of transmission. These two viral types are maintained against each other due to a trade-off between transmission and virulence.
 
 * [Unckless (2011), A DNA virus of *Drosophila*.](files/RU_PlosOne_2011.pdf)
 * [Hill and Unckless (2017) Baculovirus Molecular Evolution via Gene Turnover and Recurrent Positive Selection of Key Genes.](files/TH_JV_2017.pdf)
 * [Hill and Unckless (2018) The dynamic evolution of Drosophila innubila Nudivirus.](files/TH_IGE_2018.pdf)
 * [Hill, Koseva and Unckless (2019) The genome of *Drosophila innubila* reveals lineage-specific patterns of selection in immune
 genes.](files/TH_MBE_2019.pdf)
+* [Hill and Unckless (2020A) Recurrent evolution of two competing haplotypes in an insect DNA virus.](files/TH_biorxivVirus_2020.05.14.pdf)
+* [Hill and Unckless (2020B) Selection and demography shape genomic variation in a ‘Sky Island’ species.](files/TH_biorxivInnubila_2020.05.14.pdf)
 
 <br>
 
@@ -37,7 +39,7 @@ Previously the transposable element 'P-element' horizontally invaded *D. melanog
 
 ## Balancing selection in the *Drosophila* immune system mediated by rampant gene duplication
 
-<img src="files/Figure2.png" style="width:60%; margin-right: 20px" align="left">
+<img src="files/Figure2.png" style="width:50%; margin-right: 20px" align="left">
 
 While it appears that a majority of immune genes in *Drosophila melanogaster* are evolving under positive selection, a few genes, such as AMPs, and immune genes in other species, appear to be under balancing selection, likely due to a trade off between the benefit of a resistance allele under infection and its cost when not infected. I'm interested in the population genetics of these genes and the causes of the signatures of balancing selection, specifically if these are driven by duplication events. I am currently using machine learning to identify if AMPs duplicate more than background genes across the *Drosophila* phylogeny.
 
@@ -47,4 +49,8 @@ While it appears that a majority of immune genes in *Drosophila melanogaster* ar
 
 ## Speciation and genome evolution in the *Drosophila dunni* subgroup
 
+<img src="files/dunni_surv_website.png" style="width:30%; margin-right: 20px" align="left">
+
 The *Drosophila dunni* subgroup is a species group spread across Carribbean islands, with one species per island. The species in this subgroup are recently diverged with differing levels of isolation between species. I am interested in the divergence between two species, *D. nigrodunni* and *D. arawakhana*, in which one direction of the cross produces only female offspring and reduces the lifespan of mated females. I suspect divergence in seminal fluid proteins may drive these effects to some degree and so am no investigating genome evolution anf seminal fluid protein evolution across this species group.
+
+* [Hill, Rosales-Stephens & Unckless (2020) Rapid divergence of the copulation proteins in the *Drosophila dunni group* is associated with hybrid post-mating-prezygotic incompatibilities.](files/TH_biorxivDunni_2020.05.20.pdf)
