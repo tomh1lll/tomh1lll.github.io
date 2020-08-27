@@ -9,13 +9,23 @@ fontsize: 13pt
 Here you can find data I've generated in the previous years, including genomes, genome annotations, repeats and tools used.
 
 
-####Drosophila innubila and Drosophila innubila Nudivirus
+####Drosophila innubila
 Data generated for [Hill, Koseva and Unckless (2019) The genome of *Drosophila innubila* reveals lineage-specific patterns of selection in immune
-genes.](files/TH_MBE_2019.pdf) and for [Hill and Unckless (2018) The dynamic evolution of Drosophila innubila Nudivirus.](files/TH_IGE_2018.pdf)
+genes.](files/TH_MBE_2019.pdf)
 
-* [Figshare page containing the genome sequence and annotation of both *Drosophila innubila* and DiNV, as well as rates of evolution for both.](https://figshare.com/account/home#/projects/88355)
-* [NCBI page for *Drosophila innubila*](https://www.ncbi.nlm.nih.gov/genome/?term=txid198719[orgn])
-* [NCBI page for Drosophila innubila Nudivirus](https://www.ncbi.nlm.nih.gov/nuccore/1571845550)
+* [Genome sequence in fasta format.](data/Dinnubila.fa.tar.gz)
+* [Genome gene annotation.](data/Dinnubila.gff.tar.gz)
+* [Genome repeat sequences in fasta format.](data/Dinnubila.repeats.fa.tar.gz)
+* [Transcriptome generated from RNAseq information]()
+* [Genome repeat annotation.](data/Dinnubila.fa.out.gff.tar.gz)
+* [dN/dS per gene on each branch of the quinaria group](data/Dinnubila.dNdS.txt.tar.gz)
+
+
+####Drosophila innubila Nudivirus
+Data generated for [Hill and Unckless (2018) The dynamic evolution of Drosophila innubila Nudivirus.](files/TH_IGE_2018.pdf)
+
+* [Genome sequence in fasta format.](data/DiNV_CH01M.fa.tar.gz)
+* [Genome gene annotation.](data/DiNV_CH01M.gff.tar.gz)
 
 ####Balancing selection in antimicrobial peptides
 Data generated for [Chapman, Hill and Unckless (2019) Balancing selection drives maintenance of genetic variation in *Drosophila* antimicrobial peptides.](files/TH_GBE_2019.pdf)
